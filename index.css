@@ -1,0 +1,36 @@
+#numbers,
+.letters,
+#extra-buttons {
+	display: flex;
+	justify-content: center;
+	border: unset;
+}
+
+div {
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin: 0px 5px;
+}
+
+span,
+#caps-lock,
+#enter,
+#backspace {
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid black;
+	margin: 0px 5px;
+	cursor: pointer;
+}
+
+#output {
+	height: auto;
+	min-height: 1.5em;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
